@@ -1,0 +1,2 @@
+data = input( "Enter your name: ")
+print("Hello", data, "How are you?", "How may I assist you today?")

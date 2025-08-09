@@ -1,0 +1,11 @@
+# Ohm's Law Calculator: Voltage (V) = Current (I) * Resistance (R)
+# This script calculates the voltage using Ohm's Law.
+current = float(input("Enter the Current (in amperes): "))
+resistance = float(input("Enter the Resistance (in ohms): "))
+
+current = float(input("Enter the current (in amperes): "))
+resistance = float(input("Enter the resistance (in ohms): "))
+
+# Calculate voltage using Ohm's Law: V = I * R
+voltage = current * resistance
+print(f"The voltage is {voltage} volts.")

@@ -1,0 +1,14 @@
+while True:
+    age = input("Enter your AGE: ")
+    try:
+        age_int = int(age)
+        break
+    except ValueError:
+        print("Invalid input. Please enter a valid integer for age.")
+
+if age_int < 18:
+    print("You are a minor. ")
+elif age_int > 18 and age_int < 65:
+    print("You are an adult.")
+else:
+    print("You are a senior citizen.")
